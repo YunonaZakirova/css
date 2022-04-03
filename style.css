@@ -1,0 +1,135 @@
+body{
+    background-color:antiquewhite;
+    color:black;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+a:active{
+    color:black;
+}
+
+h1{
+    color:brown;
+    
+  
+}
+h2{
+    color:crimson;
+   font-weight: 900;
+}
+.yunona{
+    border-radius: 100px;
+    width: 300px;
+   
+}
+.info p {
+font-size: x-large;
+font-family:monospace;
+color:brown;
+}
+
+.info{
+    display:flex;
+}
+
+.info-text{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+@media (max-width:750px){
+    .info{
+        text-align:center ;
+        display: block;
+    }
+}
+
+
+.bg-soft{
+    background-color: gainsboro;
+}
+.bg-croft{
+    background-color: burlywood;
+}
+
+
+
+.card{
+  
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card h2{
+    color: blueviolet;
+}
+.table{
+    width: 100%;
+}
+.table td{
+    padding-bottom:5px;
+}
+
+/*.table td:nth-child(3),td:nth-child(2),td:nth-child(1){
+    color:brown
+}*/
+
+.ssilka li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 20px;
+    color:brown;
+}
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background-color: #ccc;
+    border-bottom: 1px solid #ccc;
+    color: brown;
+    outline: none;
+    padding:15px 0 10px;
+    font-family: inherit;
+}
+
+
+.poisk{
+    outline: none;
+    margin-bottom: 15px;
+    color:brown;
+    font-family: inherit;
+    box-sizing: border-box;
+
+}
+
+.knopka {
+    background-color: black;
+    color:#ccc;
+    padding:15px 20px;
+    font-family: inherit;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.knopka:hover{
+    opacity:0.9;
+}
+
